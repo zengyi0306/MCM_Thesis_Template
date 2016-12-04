@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.26)  4 DEC 2016 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.26)  4 DEC 2016 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,7 +274,29 @@ Package hyperref Warning: Option `hyperindex' has already been used,
 Package hyperref Info: Option `plainpages' set `false' on input line 15.
 \c@definition=\count114
 \c@numdefinition=\count115
-(/Users/paul/Projects/MCM_Thesis_Template/.texpadtmp/report.aux)
+(/Users/paul/Projects/MCM_Thesis_Template/.texpadtmp/report.aux
+
+LaTeX Warning: Label `fig:data' multiply defined.
+
+
+LaTeX Warning: Label `fig:Formular' multiply defined.
+
+
+LaTeX Warning: Label `fig:xgx' multiply defined.
+
+
+LaTeX Warning: Label `fig:xgx' multiply defined.
+
+
+LaTeX Warning: Label `fig:xgxfx' multiply defined.
+
+
+LaTeX Warning: Label `equ:dynamicofcollision' multiply defined.
+
+
+LaTeX Warning: Label `tab:thi' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -388,11 +410,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <36> not available
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <30> not available
 (Font)              size <24.88> substituted on input line 72.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <36> not available
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <30> not available
 (Font)              size <24.88> substituted on input line 72.
 
 
@@ -411,67 +433,189 @@ Missing character: There is no ± in font cmr12!
 \tf@toc=\write5
 \openout5 = `report.toc'.
 
- [0] <pic/Formular.png, id=26, 363.3575pt x 406.51875pt>
+ [0] <pic/Formular.png, id=155, 363.3575pt x 406.51875pt>
 File: pic/Formular.png Graphic file (type png)
  <use pic/Formular.png>
 Package pdftex.def Info: pic/Formular.png used on input line 128.
 (pdftex.def)             Requested size: 290.68639pt x 325.21542pt.
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no å in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 136.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.136 
-       [1 <./pic/Formular.png>] <pic/cfc.png, id=35, 433.62pt x 292.6935pt>
+       [1 <./pic/Formular.png>] <pic/cfc.png, id=168, 433.62pt x 292.6935pt>
 File: pic/cfc.png Graphic file (type png)
  <use pic/cfc.png>
 Package pdftex.def Info: pic/cfc.png used on input line 142.
 (pdftex.def)             Requested size: 346.89647pt x 234.1551pt.
-
-
-LaTeX Warning: Citation `ncep.noaa.gov' on page 2 undefined on input line 143.
-
-
-LaTeX Warning: Citation `ncep.noaa.gov' on page 2 undefined on input line 146.
-
-<pic/cfc_index.png, id=36, 361.35pt x 263.7855pt>
+ <pic/cfc_index.png, id=170, 361.35pt x 263.7855pt>
 File: pic/cfc_index.png Graphic file (type png)
  <use pic/cfc_index.png>
-Package pdftex.def Info: pic/cfc_index.png used on input line 151.
+Package pdftex.def Info: pic/cfc_index.png used on input line 150.
 (pdftex.def)             Requested size: 325.21199pt x 237.40475pt.
-)
-Runaway argument?
-{CFCs Index\cite {ncep.noaa.gov}\cite {noaa.gov}\label {fig:CFCs inde\ETC.
-! File ended while scanning use of \@xdblarg.
-<inserted text> 
-                \par 
-<*> report.tex
-              
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+ [2 <./pic/cfc.png>] [3 <./pic/cfc_index.png>] <pic/oz_area_data.png, id=190, 563.10374pt x 379.4175pt>
+File: pic/oz_area_data.png Graphic file (type png)
+ <use pic/oz_area_data.png>
+Package pdftex.def Info: pic/oz_area_data.png used on input line 165.
+(pdftex.def)             Requested size: 337.86485pt x 227.65225pt.
+ <pic/T&T_data.png, id=191, 926.46124pt x 380.42125pt>
+File: pic/T&T_data.png Graphic file (type png)
+ <use pic/T&T_data.png>
+Package pdftex.def Info: pic/T&T_data.png used on input line 171.
+(pdftex.def)             Requested size: 370.57793pt x 152.16579pt.
+ [4 <./pic/oz_area_data.png> <./pic/T&T_data.png>] <pic/previouswork.png, id=202, 671.50874pt x 438.63875pt>
+File: pic/previouswork.png Graphic file (type png)
+ <use pic/previouswork.png>
+Package pdftex.def Info: pic/previouswork.png used on input line 187.
+(pdftex.def)             Requested size: 268.59874pt x 175.45238pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+ [5 <./pic/previouswork.png>] <pic/wolf.png, id=215, 506.89375pt x 258.9675pt>
+File: pic/wolf.png Graphic file (type png)
+ <use pic/wolf.png>
+Package pdftex.def Info: pic/wolf.png used on input line 195.
+(pdftex.def)             Requested size: 304.1386pt x 155.38168pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+ [6 <./pic/wolf.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 
-! Emergency stop.
-<*> report.tex
-              
-*** (job aborted, no legal \end found)
+Overfull \hbox (16.07713pt too wide) in paragraph at lines 235--254
+[] 
+ []
 
- 
+[7] <pic/ts_model.png, id=235, 603.25375pt x 448.67625pt>
+File: pic/ts_model.png Graphic file (type png)
+ <use pic/ts_model.png>
+Package pdftex.def Info: pic/ts_model.png used on input line 262.
+(pdftex.def)             Requested size: 271.46167pt x 201.90245pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 275.
+
+[8 <./pic/ts_model.png>] <pic/table.png, id=249, 462.72874pt x 434.62375pt>
+File: pic/table.png Graphic file (type png)
+ <use pic/table.png>
+Package pdftex.def Info: pic/table.png used on input line 313.
+(pdftex.def)             Requested size: 231.3638pt x 217.31134pt.
+ [9] <pic/pre.png, id=262, 433.62pt x 239.9364pt>
+File: pic/pre.png Graphic file (type png)
+ <use pic/pre.png>
+Package pdftex.def Info: pic/pre.png used on input line 336.
+(pdftex.def)             Requested size: 260.17401pt x 143.96294pt.
+ [10 <./pic/table.png> <./pic/pre.png>] <pic/pre2.png, id=272, 417.7206pt x 264.0264pt>
+File: pic/pre2.png Graphic file (type png)
+ <use pic/pre2.png>
+Package pdftex.def Info: pic/pre2.png used on input line 361.
+(pdftex.def)             Requested size: 208.85979pt x 132.01286pt.
+ <pic/ha.png, id=273, 764.8575pt x 442.65375pt>
+File: pic/ha.png Graphic file (type png)
+ <use pic/ha.png>
+Package pdftex.def Info: pic/ha.png used on input line 374.
+(pdftex.def)             Requested size: 305.93758pt x 177.05835pt.
+ [11 <./pic/pre2.png> <./pic/ha.png>] <pic/tl.png, id=285, 442.65375pt x 367.3725pt>
+File: pic/tl.png Graphic file (type png)
+ <use pic/tl.png>
+Package pdftex.def Info: pic/tl.png used on input line 386.
+(pdftex.def)             Requested size: 265.59428pt x 220.42519pt.
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [12 <./pic/tl.png>] <pic/ts.png, id=295, 665.48625pt x 478.78876pt>
+File: pic/ts.png Graphic file (type png)
+ <use pic/ts.png>
+Package pdftex.def Info: pic/ts.png used on input line 397.
+(pdftex.def)             Requested size: 399.29483pt x 287.27547pt.
+ [13 <./pic/ts.png>]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [14] <pic/mkv.png, id=316, 719.68875pt x 458.71375pt>
+File: pic/mkv.png Graphic file (type png)
+ <use pic/mkv.png>
+Package pdftex.def Info: pic/mkv.png used on input line 429.
+(pdftex.def)             Requested size: 287.87039pt x 183.48224pt.
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no ö in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no Ç in font cmr12!
+ [15 <./pic/mkv.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no å in font cmr12!
+ [16] [17]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+ [18] [19] (/Users/paul/Projects/MCM_Thesis_Template/.texpadtmp/report.bbl
+Underfull \hbox (badness 3019) in paragraph at lines 28--32
+[]\OT1/cmr/m/n/12 T. O. H. Inc., ``Ozone hole his-tory.'' [][]$\OT1/cmtt/m/n/12 http : / / www . theozonehole . com /
+ []
+
+[20]) 
+AED: lastpage setting LastPage
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 558.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 558.
+ (/Users/paul/Projects/MCM_Thesis_Template/.texpadtmp/report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 558.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 558.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 5.12pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 558.
+ ) 
 Here is how much of TeX's memory you used:
- 10180 strings out of 493013
- 140929 string characters out of 6133342
- 226573 words of memory out of 5000000
- 13629 multiletter control sequences out of 15000+600000
- 10409 words of font info for 39 fonts, out of 8000000 for 9000
+ 10405 strings out of 493013
+ 144178 string characters out of 6133342
+ 223633 words of memory out of 5000000
+ 13737 multiletter control sequences out of 15000+600000
+ 10925 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,12n,43p,1193b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 29i,13n,43p,1192b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /Users/paul/Projects/MCM_Thesis_Template/.texpadtmp/report.pdf (23 pages, 1815448 bytes).
+PDF statistics:
+ 457 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
+

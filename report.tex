@@ -69,9 +69,9 @@ For office use only\\
 \begin{minipage}{0.3\textwidth}
 \centering
 Team Control Number\\[5pt]
-\fontsize{36pt}{\baselineskip}\selectfont  \textbf{666} \normalsize\\[10pt]
+\fontsize{30pt}{\baselineskip}\selectfont  \textbf{666} \normalsize\\[10pt]
 Problem Chosen\\[5pt]
-\fontsize{18pt}{\baselineskip}\selectfont \textbf{A }\normalsize\\
+\fontsize{18pt}{\baselineskip}\selectfont \textbf{A}\normalsize\\
 \end{minipage}\hfill
 \begin{minipage}{0.35\textwidth}
 \begin{flushright}
@@ -93,7 +93,7 @@ For office use only\\
 {\Large \textbf{Abstract}}
 \vspace{7pt}
 
-%==========================abstract.tex==============================We have constructed a Stability time series model and a Markov model that to hold a promise for providing insight into not only predict the max ozone hole square in Antarctic in the next 50 years, but also foresee the ozone levels in different latitudes in the northern hemisphere in the next 50 years. This model considers a large number of parameters thought to be important to the ozone hole and ozone levels, including the CSCs concentration, the destruction CFCs to the ozone layer, light intensity, the atmospheric circulation, solar radiation and temperature. The aforementioned Stability time series approach includes CFCs concentration data (1979-2016), max ozone hole square data in Antarctic (1979-2016) and the average solar radiation in Antarctic each year, in order to research the relationship between the max ozone hole square and the CFCs concentration and predict the max ozone hole square in the later 50 years by using the Holt-Winters Method. The Markov model approach includes the ozone levels data of $15\,^{\circ}N$ to $55\,^{\circ}N$ in the northern hemisphere in 1986 to 2016. Ozone transition, impacting the ozone levels in different latitudes and the CFCs concentration. The different day length in the different latitudes determined the reaction time of CFCs and the ozone. The day length, CFCs concentration and ozone transition can be reflect in the historical changes. We get the probability transfer matrix from the historical data, which can predict the most probable ozone levels in the $15\,^{\circ}N$ to $55\,^{\circ}N$.Specific attention is given to the sensitivity of our model to variations in its fundamental parameters, whose values are based largely on inadequate and varied statistical data. We attempt to use our model to identify the most important factors related to the ozone levels, and show simulation results related to α in the Stability time series model.Ultimately, we have concluded that given the complex nature of this scenario and the limited quantity and quality of detailed information concerning the change of max ozone hole square in Antarctic and the ozone levels in the $15 \,^{\circ}N$ to $55\,^{\circ}N$ in the next 50 years, it is not possible at this time to quantitatively predict the effectiveness of the ozone levels recovery plan. Instead, the results presented here qualitatively show the relationship between ozone hole square and CFCs concentration .These qualitative results are then used to craft a tentative deployment strategy for the ozone levels recovery.
+%==========================abstract.tex==============================We have constructed a Stability time series model and a Markov model that to hold a promise for providing insight into not only predict the max ozone hole square in Antarctic in the next 50 years, but also foresee the ozone levels in different latitudes in the northern hemisphere in the next 50 years. This model considers a large number of parameters thought to be important to the ozone hole and ozone levels, including the CSCs concentration, the destruction CFCs to the ozone layer, light intensity, the atmospheric circulation, solar radiation and temperature. The aforementioned Stability time series approach includes CFCs concentration data (1979-2016), max ozone hole square data in Antarctic (1979-2016) and the average solar radiation in Antarctic each year, in order to research the relationship between the max ozone hole square and the CFCs concentration and predict the max ozone hole square in the later 50 years by using the Holt-Winters Method. The Markov model approach includes the ozone levels data of $15\,^{\circ}N$ to $55\,^{\circ}N$ in the northern hemisphere in 1986 to 2016. Ozone transition, impacting the ozone levels in different latitudes and the CFCs concentration. The different day length in the different latitudes determined the reaction time of CFCs and the ozone. The day length, CFCs concentration and ozone transition can be reflect in the historical changes. We get the probability transfer matrix from the historical data, which can predict the most probable ozone levels in the $15\,^{\circ}N$ to $55\,^{\circ}N$.Specific attention is given to the sensitivity of our model to variations in its fundamental parameters, whose values are based largely on inadequate and varied statistical data. We attempt to use our model to identify the most important factors related to the ozone levels, and show simulation results related to α in the Stability time series model.Ultimately, we have concluded that given the complex nature of this scenario and the limited quantity and quality of detailed information concerning the change of max ozone hole square in Antarctic and the ozone levels in the $15 \,^{\circ}N$ to $55\,^{\circ}N$ in the next 50 years, it is not possible at this time to quantitatively predict the effectiveness of the ozone levels recovery plan. Instead, the results presented here qualitatively show the relationship between ozone hole square and CFCs concentration. These qualitative results are then used to craft a tentative deployment strategy for the ozone levels recovery.
 %\textbf{keyword}: sweet spot; corked bat; coefficient of restitution;%xxx speed; finite element method; 
 \newpage
 
@@ -111,7 +111,7 @@ For office use only\\
 \section{Introduction}
 \subsection{Context of The Problem}
 
-The ozone layer protects Earth from dangerous UV radiations which can cause mutations . In humans, higher rates of skin cancers, cataracts, and immune system problems can be the consequences of the damage of ozone layer. Furthermore, an increase in UV radiation could affect plants and marine ecosystem. thus gives the earth a constant influence. 
+The ozone layer protects Earth from dangerous UV radiations which can cause mutations. In humans, higher rates of skin cancers, cataracts, and immune system problems can be the consequences of the damage of ozone layer. Furthermore, an increase in UV radiation could affect plants and marine ecosystem. thus gives the earth a constant influence. \cite{kuntasal1987trends}
 
 \begin{center}
 \begin{figure}[htpb]
@@ -121,11 +121,11 @@ The ozone layer protects Earth from dangerous UV radiations which can cause muta
 \end{figure}
 \end{center}
 
-By the studies of F.Sherwood Rowland and Mario Molina, the ozone layer is full of $O_3$ (ozone molecules) and loose oxygen atoms, once a single atom reacts with $O_3$ it will producing one $ClO$ and one $O_2$，but the $ClO$ molecule won't stay long, soon it will react with a single atom and finally producing $Cl$ and $O_2$. This reaction will start to process all over and over again, destroy a huge amount of ozone molecules.%\cite{kuntasal1987trends}
+By the studies of F.Sherwood Rowland and Mario Molina, the ozone layer is full of $O_3$ (ozone molecules) and loose oxygen atoms, once a single atom reacts with $O_3$ it will producing one $ClO$ and one $O_2$, but the $ClO$ molecule won't stay long, soon it will react with a single atom and finally producing $Cl$ and $O_2$. This reaction will start to process all over and over again, destroy a huge amount of ozone molecules.
 
 Later in Rowland, Solomon, and Garcia’s work, another modified version of the original hypothesis was suggested. It shown that noting will affect CFCs in the lower atmosphere, and  the CFCs will eventually diffuse to the upper atmosphere releasing $Cl$ atoms when exposed to solar radiation. Also, nitrogen dioxide neutralizes some $Cl$ in upper atmosphere. This will speed up the depletion of ozone. In the meantime, these scientist find that this process  goes much more faster with the help of the polar clouds, due to the Ice particles speed release of chlorine and keep nitrogen dioxide from neutralizing much more chlorine.
 
-These studies revealed the reasons why ozone hole could appear and why it mainly happens over the Antarctic.
+These studies revealed the reasons why ozone hole could appear and why it mainly happens over the Antarctic. \cite{newman2006will} 
 
 \begin{center}
 \begin{figure}[htpb]
@@ -134,23 +134,22 @@ These studies revealed the reasons why ozone hole could appear and why it mainly
 \caption{CFCs Level\cite{ncep.noaa.gov}}\label{fig:CFCs Level}
 \end{figure}
 \end{center}
-\cite{ncep.noaa.gov}
 
 \begin{center}
 \begin{figure}[htpb]
 \centering
 \includegraphics[scale=0.9]{cfc_index}
-\caption{CFCs Index\cite{ncep.noaa.gov}\cite{noaa.gov}\label{fig:CFCs index}
+\caption{CFCs Index \cite{noaa.gov}}\label{fig:CFCs index}
 \end{figure}
 \end{center}
 
 
 
-In 1985, 20 nations signed the Vienna Convention for the Protection of the Ozone Layer. In 1987, representatives from 43 nations signed the Montreal Protocol. At Montreal, the participants agreed to freeze production of CFCs at 1986 levels and to reduce production by 50 percent by 1999. Since the adoption and strengthening of the Montreal Protocol has led to reductions in the emissions of CFCs, atmospheric concentrations of the most-significant compounds have been declining.   Besides, the factors that influence the ozone content and change in the atmosphere also include the light intensity, the atmospheric circulation and eddy transport. The equator is the most likely region to produce ozone, which receives the strongest solar radiation, but due to the role of atmospheric circulation, the ozone generated will be brought to the north and south. The polar vortex causes the wind blowing to the north and south to be less, thus stopping the exchange of material there. Because of the destruction to the ozone layer by contaminants, the ozone layer is gradually consumed, but there are no ozone supplement from outside area , so the content will be significantly reduced.
+In 1985, 20 nations signed the Vienna Convention for the Protection of the Ozone Layer. In 1987, representatives from 43 nations signed the Montreal Protocol. At Montreal, the participants agreed to freeze production of CFCs at 1986 levels and to reduce production by 50 percent by 1999. Since the adoption and strengthening of the Montreal Protocol has led to reductions in the emissions of CFCs, atmospheric concentrations of the most-significant compounds have been declining.   Besides, the factors that influence the ozone content and change in the atmosphere also include the light intensity, the atmospheric circulation and eddy transport. The equator is the most likely region to produce ozone, which receives the strongest solar radiation, but due to the role of atmospheric circulation, the ozone generated will be brought to the north and south. The polar vortex causes the wind blowing to the north and south to be less, thus stopping the exchange of material there. Because of the destruction to the ozone layer by contaminants, the ozone layer is gradually consumed, but there are no ozone supplement from outside area, so the content will be significantly reduced.
 \subsection{Finding The Data}
-Scientists use various method to collect the ozone area and other data. For example, in order to get the data of ozone levels in different level, high-altitude balloons with sensitive measuring devices were flew into the upper atmosphere.
+Scientists use various method to collect the ozone area and other data. For example, in order to get the data of ozone levels in different level, high-altitude balloons with sensitive measuring devices were flew into the upper atmosphere.\cite{OzoneHoleWatch}
 
-But use balloons to collect data would be like trying to detect a single drop of dye in an Olympic-sized swimming pool full of water. So NASA\cite{OzoneHoleWatch} started using satellite to collect the data. But at first, the program written by NASA's staff mistakenly judged the giant change of ozone level as instrument's malfunctions and overlooked them. A few years later, by comparing with the data from ground-based observatories, they finally find the fact that the ozone hole is rapidly expand in a more faster way than anyone can ever imagine.
+But use balloons to collect data would be like trying to detect a single drop of dye in an Olympic-sized swimming pool full of water. So NASA started using satellite to collect the data. But at first, the program written by NASA's staff mistakenly judged the giant change of ozone level as instrument's malfunctions and overlooked them. A few years later, by comparing with the data from ground-based observatories, they finally find the fact that the ozone hole is rapidly expand in a more faster way than anyone can ever imagine.
 \begin{center}
 \begin{figure}[htpb]
 \centering
@@ -171,16 +170,16 @@ For the data set has some missing data in some days, in order to lowest the mean
 Also, for the ozone levels fluctuate so wildly that it is difficult to detect subtle trends over a short-term period. We use the mean value of each year's ozone hole area as a factor indicate the ozone level thus we can predict the ozone level  in a larger scale.
 %img here
 \subsection{The Task at Hand}
-We should develop a mathematical model to analysis the changes of ozone level and find out the factor of the ozone changes.  For we already know the CFCs' changing patten, we also should analysis the relationship between them and use it for better predicting the ozone level as well as given instructions on CFCs' production and usage.
+We should develop a mathematical model to analysis the changes of ozone level and find out the factor of the ozone changes.  For we already know the CFCs' changing patten, we also should analysis the relationship between them and use it for better predicting the ozone level as well as given instructions on CFCs' production and usage.\cite{theozonehole.com}
 \subsection{Previous work}
 \begin{center}
 \begin{figure}[htpb]
 \centering
 \includegraphics[scale=0.4]{previouswork}
-\caption{Rowland, Solomon, and Garcia’s work suggested a modification to the original hypothesis: CFCs cause significant ozone depletion—and they do it much more rapidly with the help of polar clouds.}\label{fig:Formular}
+\caption{Rowland, Solomon, and Garcia’s work suggested a modification to the original hypothesis: CFCs cause significant ozone depletion—and they do it much more rapidly with the help of polar clouds.\cite{gomez2006neural}}\label{fig:Formular}
 \end{figure}
 \end{center}
-Scientist use models as one important method to doing research. Modeling often means creating a mathematical model -  a set of equations that represent a real system. \cite{shindell1998increased}
+Scientist use models as one important method to doing research. Modeling often means creating a mathematical model -  a set of equations that represent a real system. 
 \begin{center}
 \begin{figure}[htpb]
 \centering
@@ -191,7 +190,7 @@ Scientist use models as one important method to doing research. Modeling often m
 
 In the 1970s, scientists tried to us the wolf-rabbit model to predict some interchanges relationships include the CFCs and  The wolf-rabbit model is essentially a hypothesis about the two species and how these interaction affect their numbers. 
 
-And the models and hypotheses about how molecules interact with one another as they move through the atmosphere. Models, and the hypotheses within them, are supported when the model generates expectations that match the behavior of its real-world counterpart—e.g., if removing hunting from the model has a similar effect to that observed in the real world when wolves are protected from hunting . If a model is supported and seems to be a good representation of the real world, we can use it to answer “what if” questions: What would happen to rabbit populations if we allowed wolf hunting in particular areas—or more pertinently for Molina and Rowland, what would happen in 50 years if we continued CFC production at 1974 rates?
+And the models and hypotheses about how molecules interact with one another as they move through the atmosphere. Models, and the hypotheses within them, are supported when the model generates expectations that match the behavior of its real-world counterpart e.g., if removing hunting from the model has a similar effect to that observed in the real world when wolves are protected from hunting. If a model is supported and seems to be a good representation of the real world, we can use it to answer “what if” questions: What would happen to rabbit populations if we allowed wolf hunting in particular areas—or more pertinently for Molina and Rowland, what would happen in 50 years if we continued CFC production at 1974 rates?
 
 
 
@@ -229,17 +228,18 @@ And the models and hypotheses about how molecules interact with one another as t
 Symbols&Definitions\\\hline$t$& time\\$S_{t+1}$& predicted value of the maximum area of the ozone hole in the year of t+1\\$S_t$& predicted value of the maximum area of the ozone hole in the year of t\\$Y_t$& measurement of the maximum area of the ozone hole in the year of t\\$\alpha$& weighting coefficient\\$DU$&Dobson Unit, the unit of ozone content\\$O(t)$& predicted function of the maximum area of the ozone hole\\$C(t)$& predicted function of CFCs content level\\$E_i$& the range for ozone content in the state of t\\$P$& transition probability matrix\\$P^k$& the transition probability matrix after the year of k\\$p_{ij}$& the chance to change from the state of $E_i$ to $E_j$\\$Y$& ozone content\\\hline\end{tabular}
 
 %=============================\input{ModelforCollision}==========================
+\newpage
 \section{Time series model}
 \begin{center}
 \begin{figure}[htpb]
 \centering
-\includegraphics[scale=0.35]{ts_model}
+\includegraphics[scale=0.45]{ts_model}
 \caption{Time series: random data plus trend, with best-fit line and different applied filters.}\label{fig:ts_exam}
 \end{figure}
 \end{center}
-A time series is a series of data points indexed (or listed or graphed) in time order.Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristic of the data. In our model, we use time series forecasting as the model to predict future ozone level based on previous observed values. While regression analysis is often employed in such a way as to test theories that the current values of one or more independent time series affect the current value of another time series.\cite{temis.nl}
+A time series is a series of data points indexed (or listed or graphed) in time order.Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristic of the data. In our model, we use time series forecasting as the model to predict future ozone level based on previous observed values. While regression analysis is often employed in such a way as to test theories that the current values of one or more independent time series affect the current value of another time series.\cite{temis.nl} \cite{Holt-Winters-Forecasting}
 
-Time series data have a natural temporal ordering. This makes time series analysis distinct from other analysis methods.  A stochastic model for a time series will be more closely related than observations further apart. In addition. 
+Time series data have a natural temporal ordering. This makes time series analysis distinct from other analysis methods. A stochastic model for a time series will be more closely related than observations further apart. In addition. 
 
 Time series analysis can be applied to real- valued, continuous data, dis Crete numeric data, or discrete symbolic data (i.e sequences of characters).
 
@@ -249,7 +249,7 @@ In our model, we developed a new method to use our data collected from NASA's sa
 }
 
 
-When the time series have a quadratic feature, we tend to use the Holt-Winters Method to smoothing. Holt-Winters Method takes into account seasonal changes as well as trends(all of which are trends). Seasonality is defined to be the tendency of our time series data that  changes  annually, we  smoothed the changes to be well predictable. While we can use it to predict the future changes.\cite{chatfield1988holt}
+When the time series have a quadratic feature, we tend to use the Holt-Winters Method to smoothing. Holt-Winters Method takes into account seasonal changes as well as trends(all of which are trends). Seasonality is defined to be the tendency of our time series data that  changes  annually, we  smoothed the changes to be well predictable. While we can use it to predict the future changes.\cite{chatfield1988holt}\cite{newman2006will}
 
 The method calculates a trend line for there data as well as seasonal indices. $\{S_t^{(1)}\}$ represent the smoothed value of the constant part for time t. $\{S_t^{(2)}\}$ represents the sequence of second value. And the $\{S_t^{(3)}\}$ is the *Three Order Exponential Smoothing Value*. The method is given by the formulas 
 
@@ -262,7 +262,7 @@ The method calculates a trend line for there data as well as seasonal indices. $
 \end{array}\right.\label{equ:dynamicofcollision}
 \end{eqnarray}
 
- In the formulas above, $S^{(3)}_t$ is the Three Order Exponential Smoothing Value.And the Holt-Winters Method's prediction model is
+ In the formulas above, $S^{(3)}_t$ is the Three Order Exponential Smoothing Value. And the Holt-Winters Method's prediction model is
 $$
 \hat y_{t+m} = a_t + b_tm + C_t m^2, (m = 1,2,...)
 $$
@@ -280,13 +280,67 @@ The parameters are defined as follows
 \end{eqnarray}
 %三次平滑的定义式
 
+We can predict the max ozone square in the Antarctic by using the Holt-Winters Method. We chose 0.23 as the value of $\alpha$. So the data of max ozone square can be list as follows.
+\begin{center}
+\begin{figure}[htpb]
+\centering
+\includegraphics[scale=0.5]{table}
+\caption{}\label{fig:table}
+\end{figure}
+\end{center}
+Additionally, we draw the historical data and forecast data in the same coordinate axis, so that we get the function $O(t)$ from the distribution of data.
+$$O(t) = a_1 t^3+b_1 t^2 + c_1 t+d1$$
+And the parameters are as follows,
+\begin{eqnarray}
+\left \{
+  \begin{array}{ll}
+  a_1 = 0.000125304777263767, \\
+  b_1 = -0.770037834329245, \\
+  c_1 = 1577.01550125288, \\
+  d_1 = -1076297.84748876.
+ 
+\end{array} \right .
+\end{eqnarray}
+
+It can be seen from the function curve, the max ozone hole square will descending gently for the reason that some developed and developing countries sign the Montreal Protocol, the CFCs concentration become lower and the earth produces ozone by itself.
+\begin{center}
+\begin{figure}[htpb]
+\centering
+\includegraphics[scale=0.6]{pre}
+\caption{The prediction of the max ozone hole square}\label{fig:xgx}
+\end{figure}
+\end{center}
+
+And the function $C(t)$ is as follows,
+$$
+C(t) = a_2 t^3 + b_2 t^2 + c_2 t + d_2
+$$
+
+While the paramters are,
+\begin{eqnarray}
+\left \{
+  \begin{array}{ll}
+  a_2 = 0.0171516907706322, \\
+  b_2 = -104.744836535158, \\
+  c_2 = 213183.374350208, \\
+  d_2 = 144597046.964169.
+ 
+\end{array} \right .
+\end{eqnarray}
+
+\begin{center}
+\begin{figure}[htpb]
+\centering
+\includegraphics[scale=0.5]{pre2}
+\caption{The prediction of the max ozone hole square}\label{fig:xgx}
+\end{figure}
+\end{center}
+
 
 
 \subsection{Trajectory Analysis}
 \subsubsection{Comparation}
-We get the function of the change of the max Ozonehole square (O(t)) and the function of the change of the total amount of CFCs(C(t)), and draw the two functions in the same cartesian axis. The picture(填个编号)shows how the max Ozone hole square changes with the CFCs concentration. Wesucceed finding that the Ozone hole square reaches the maximum values after theCFCs concentration reaches the maximum values. It means that the increase of Ozone hole square lags behide the increase of CFCs concentration.
-Oin which the path taken during the compression phase
-is different from that taken during the expansion phase. The area bounded by the two curves is the energy dissipated
+
 \begin{center}
 \begin{figure}[htpb]
 \centering
@@ -294,8 +348,11 @@ is different from that taken during the expansion phase. The area bounded by the
 \caption{}\label{fig:twoline}
 \end{figure}
 \end{center}
+We get the function of the change of the max ozone hole square $(O(t))$ and the function of the change of the total amount of CFCs $(C(t))$, and draw the two functions in the same cartesian axis. The picture shows how the max Ozone hole square changes with the CFCs concentration. We succeed finding that the Ozone hole square reaches the maximum values after theCFCs concentration reaches the maximum values. It means that the increase of Ozone hole square lags beside the increase of CFCs concentration.
+On which the path taken during the compression phase
+is different from that taken during the expansion phase. The area bounded by the two curves is the energy dissipated
 \subsubsection{Trajectory analysis}
-In order to researchthe relationship between Ozonehole square and CFCs concentration, we use phase trajectory to analysis the character of function O(t) and C(t), and wedraw the max ozone hole square image on the change of CFCs concentration.
+In order to research the relationship between Ozone hole square and CFCs concentration, we use phase trajectory to analysis the character of function $O(t)$ and $C(t)$, and we draw the max ozone hole square image on the change of CFCs concentration.
 \begin{center}
 \begin{figure}[htpb]
 \centering
@@ -303,17 +360,17 @@ In order to researchthe relationship between Ozonehole square and CFCs concentra
 \caption{Trajectory Analysis}\label{fig:xgx}
 \end{figure}
 \end{center}
-Because of the CFCs concentration increase with the decrease of slope, so wecan judge that the function curve moves counterclockwise.After the CFCs reaches the maximum,the max Ozone hole also reaches the maximum. Because some developed anddeveloping countries sign the Montreal Protocol, the CFCs \cite{sokhi2006prediction} concentration become lower. However, the production rate of ozone in nature ismuch more slowly than the depletion rate of ozone caused by a great quantity ofCFCs concentration for the reason that ozone only be produced in nature bychemical reactions such as lightning. So phase trajectory does not fall in accordance with theoriginal curve. It decline above the original curve with the increase of slope. But the max ozonehole square in the next 50 years can not return to the level of 1979.
+Because of the CFCs concentration increase with the decrease of slope, so we can judge that the function curve moves counterclockwise.After the CFCs reaches the maximum, the max Ozone hole also reaches the maximum. Because some developed and developing countries sign the Montreal Protocol, the CFCs \cite{sokhi2006prediction} concentration become lower. However, the production rate of ozone in nature is much more slowly than the depletion rate of ozone caused by a great quantity of CFCs concentration for the reason that ozone only be produced in nature by chemical reactions such as lightning. So phase trajectory does not fall in accordance with the original curve. It decline above the original curve with the increase of slope. But the max ozone hole square in the next 50 years can not return to the level of 1979.
 
 \subsection{Sensitivity Analysis}
-Prediction modeling, like ozone levels prediction. To better characterize the sensitivity of our model to the natural variations and errors present in the parameter α which depends on the historical data. We have performed a simulation to find the best parameter to predict the ozone level in the next 50 years.
+Prediction modeling, like ozone levels prediction. To better characterize the sensitivity of our model to the natural variations and errors present in the parameter $\alpha$ which depends on the historical data. We have performed a simulation to find the best parameter to predict the ozone level in the next 50 years.
 \begin{center}
 \begin{figure}[htpb]
 \centering
 \includegraphics[scale=0.6]{ts}
 \caption{Trajectory Analysis Results}\label{fig:xgxfx}
 \end{figure}
-\end{center}According to practical experience, α range from 0.1 to 0.3 is appropriate. The parameter α plays control to participate in the average historical data. The greater the α, the less data is used. Take six different values (0.16, 0.2, 0.23, 0.26, 0.3) for α and draw the different prediction curves in on the same axis.
+\end{center}According to practical experience, $\alpha$ range from 0.1 to 0.3 is appropriate. The parameter $\alpha$ plays control to participate in the average historical data. The greater the $\alpha$ , the less data is used. Take six different values (0.16, 0.2, 0.23, 0.26, 0.3) for $\alpha$ and draw the different prediction curves in on the same axis.
 %\subsection{Additional Considerations}
 \subsection{Strengths and Weaknesses}
 
@@ -336,7 +393,15 @@ Prediction modeling, like ozone levels prediction. To better characterize the se
 \subsection{Prediction Models}
 From data of NASA, in 1963 to 1985, the ozone content in atmosphere fluctuate randomly, and there are individual points fluctuate wildly. The ozone content in other years change smoothly, so we can believe that the change satisfies the Markov property approximately(shown below).
 
-From data we found, the observation precision of these data is generally from $±2\%$  to $ ±3\%$, so we can divide into three to five states in states partition by the range for ozone content. If we divide into five states:$$E_1, E_2, E_3, E_4, E_5$$ so every state has five directions to changes:$E_i \to E_1$, $E_i \to E_2$, $E_i \to E_3$, $E_i \to E_4$, $E_i \to E_5 \ \ (i=1,2,3,4,5\ldots)$, we use state transferring probability to describe these changes. The most basic part of state transferring probability is one step transition probability $P\{E_i\to E_j\}$,  written $P_{ij}=P\{E_i\to E_j\}\ \ (i, j=1,2,3,4,5\ldots)$.When sample size is large enough, we can use example distribution to describe  theoretical distribution of state approximately, so we can use frequency to replace transferring probability between corresponding states. We align state transferring probability $P_{ij}=P\{E_i\to E_j\}$ in proper order and get a matrices of order five：
+From data we found, the observation precision of these data is generally from $±2\%$  to $ ±3\%$, so we can divide into three to five states in states partition by the range for ozone content. If we divide into five states:$$E_1, E_2, E_3, E_4, E_5$$ so every state has five directions to changes:$E_i \to E_1$, $E_i \to E_2$, $E_i \to E_3$, $E_i \to E_4$, $E_i \to E_5 \ \ (i=1,2,3,4,5\ldots)$, we use state transferring probability to describe these changes. The most basic part of state transferring probability is one step transition probability $P\{E_i\to E_j\}$,  written $P_{ij}=P\{E_i\to E_j\}\ \ (i, j=1,2,3,4,5\ldots)$.
+
+\begin{center}
+\begin{figure}[htpb]
+\centering
+\includegraphics[scale=0.4]{mkv}
+\caption{Results}\label{fig:xgxfx}
+\end{figure}
+\end{center}When sample size is large enough, we can use example distribution to describe  theoretical distribution of state approximately, so we can use frequency to replace transferring probability between corresponding states. We align state transferring probability $P_{ij}=P\{E_i\to E_j\}$ in proper order and get a matrices of order five：
 $$\begin{bmatrix} &E_1&E_2&E_3&E_4&E_5\\E_1&P_{11}&P_{12}&P_{13}&P_{14}&P_{15}\\E_2&P_{21}&P_{22}&P_{23}&P_{24}&P_{25}\\E_3&P_{31}&P_{32}&P_{33}&P_{34}&P_{35}\\E_4&P_{41}&P_{42}&P_{43}&P_{44}&P_{45}\\E_5&P_{51}&P_{52}&P_{53}&P_{54}&P_{55} \end{bmatrix} \quad
 $$In it, $P_{ij} \geq 0$, $\sum_{j=1}^{n}P_{ij}=1 (i=1,2,3,4,5 \ldots)$    If the current forecasting object is in state$ E_i$, $P_{ij} (i,j=1,2,3,4,5\ldots)$ describes the possibiliy that current $ E_i$ state change into every state, and the most likely situation is the result we predict. In this way, we can get the mostly likely state that forecasting object change into by one step.Let $P^{(k)}$ be a k-step transition probability matrix, so $P^{(k)}=P^k$Let A be a matrix, if there is a positive integer m, let $A^m=a_{ij}$ satisfy $a_{ij}>0$ and $$\sum_{j=1}^{n}a_{ij}=1$$ So $A$ is a standard probability matrix.If an one-step transition probability matrix is a standard probability matrix, it must have steady state。Let $S^{(k)}$ be state vector of forecasting object at time of t=k, so when $$S^{(k)}=S^{(k-1)}P$$ at steady state $$S^{(k+1)}=S^{(k)}$$Let $$S^{(k)}=(x_1,x_2,……，x_n)=X^{'}$$ and $$\sum_{i=1}^{n}x_{i}=1$$From formula (1), $S^{(k)}P=S^{(k)}$, we can get $$(P^{'}-E)=0$$ in which the transpose of $X$ is $X^{'}$, while the transpose of $P$ is $P^{'}$.
 By solving equations of
@@ -406,12 +471,12 @@ Ozone level (DU) & 254-259 & 266-270 & 303-306 & 329-336 & 337-344\\
 An interesting result of our model is that, in the current conditions, the ozone level will recover to around the 1979's level after about 5 to 6 decades. Indeed, a defining characteristic of our model is that the total area of the ozone hole as well as the CFCs content has a relationship with a tiny delay. That means once the CFCs usage or the production has a obvious decline, the ozone hole's area will follows. 
 As the Ozone levels fluctuate so wildly but in the meantime they keep the trend of around one particular mean value, that it is difficult to detect subtle trends over a short-term period, but we can say that the ozone level will not get a huge difference. 
 
-While we can also see that the ozone level have a obvious relationship with latitude, in higher latitude, the ozone level comes higher, as the consenquence of the temperature and light. 
+While we can also see that the ozone level have a obvious relationship with latitude, in higher latitude, the ozone level comes higher, as the consequence of the temperature and light. 
 
-Ultimately, we can say that acroding to our model, the ozone level will have a strong relationship with the CFCs or other ozone depleting  gases. And will recover to the level of 1970s by the human-being's action like policy aimed at cutting down the emission of the ozone depleting gases. 
+Ultimately, we can say that according to our model, the ozone level will have a strong relationship with the CFCs or other ozone depleting  gases. And will recover to the level of 1970s by the human-being's action like policy aimed at cutting down the emission of the ozone depleting gases. 
 
 Using the Markov model, we can using the transfer matrix to reflect the day length, CFCs concentration and ozone transition of different latitudes, which influence the ozone levels in different latitudes. Through the Markov model, we can predict the ozone levels in 15°N to 55°N in the next 50 years. Comparing with the data, we can see that the ozone will not change much. So we can draw the conclusion that the ozone in the middle latitudes was not severely damaged. However, ozone concentration level in the middle latitude will remain stable.
-\subsection{Future Works}Our model was intended to predict the ozone levels in the next 50 years, with specific regional parameters derived from real-world data. This would allow us to run simulations with specific geographic meaning with varying degrees of fidelity. However, gathering the data on the geographic specifics of each region, how they connect  is currently occurring in them turned out to be a monumental task outside of the scope of this 96 hour project.
+\subsection{Future Works}Our model was intended to predict the ozone levels in the next 50 years, with specific regional parameters derived from real-world data. This would allow us to run simulations with specific geographic meaning with varying degrees of fidelity. However, gathering the data on the geographic specifics of each region, how they connect  is currently occurring in them turned out to be a monumental task outside of the scope of this 96 hour project.\cite{kuntasal1987trends}\cite{Holt-Winters-Forecasting}\cite{chatfield1988holt}\cite{cipra1995holt}\cite{newman2006will}\cite{shindell1998increased}\cite{sokhi2006prediction}\cite{wang2003prediction}\cite{yi1996neural}
 \subsubsection{Protect the Ozone}To protect the ozone layer, we asked everyone to take practical action. 
 Purchase products with a carbon free carbon fluoride mark. Reasonable disposal of waste and waste electrical appliances in the refrigerator, before removing the CFC and HCFC refrigerant. 
 Without the use of methyl bromide pesticide, with the help of the relevant departments, use suitable alternatives. Ensure that the coolant will not during maintenance recovery from air conditioning, refrigerator or freezer released into the atmosphere.

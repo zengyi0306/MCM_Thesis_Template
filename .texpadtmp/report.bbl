@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+
+\bibitem{kuntasal1987trends}
+G.~Kuntasal and T.~Y. Chang, ``Trends and relationships of o3, nox and hc in
+  the south coast air basin of california,'' {\em JAPCA}, vol.~37, no.~10,
+  pp.~1158--1163, 1987.
+
+\bibitem{newman2006will}
+P.~A. Newman, E.~R. Nash, S.~R. Kawa, S.~A. Montzka, and S.~M. Schauffler,
+  ``When will the antarctic ozone hole recover?,'' {\em Geophysical Research
+  Letters}, vol.~33, no.~12, 2006.
+
+\bibitem{ncep.noaa.gov}
+NOAA, ``Noaa monitors the stratosphere.'' \url{
+  http://www.cpc.ncep.noaa.gov/products/stratosphere/polar/polar.shtml#plot5}.
+\newblock NOAA Monitors the Stratosphere.
+
+\bibitem{noaa.gov}
+NOAA, ``Ozone depleting gas index.''
+  \url{http://www.esrl.noaa.gov/gmd/hats/odgi.html}.
+\newblock Ozone Depleting Gas Index.
+
+\bibitem{OzoneHoleWatch}
+NASA, ``Ozoneholewatch.'' \url{ http://ozonewatch.gsfc.nasa.gov}.
+\newblock OzoneHoleWatch.
+
+\bibitem{theozonehole.com}
+T.~O.~H. Inc., ``Ozone hole history.''
+  \url{http://www.theozonehole.com/ozoneholehistory.htm}.
+\newblock The Ozone Hole Inc. is an organization dedicated to protecting the
+  ozone layer.
+
+\bibitem{gomez2006neural}
+J.~Gomez-Sanchis, J.~D. Mart{\'\i}n-Guerrero, E.~Soria-Olivas, J.~Vila-Frances,
+  J.~L. Carrasco, and S.~del Valle-Tasc{\'o}n, ``Neural networks for analysing
+  the relevance of input variables in the prediction of tropospheric ozone
+  concentration,'' {\em Atmospheric Environment}, vol.~40, no.~32,
+  pp.~6173--6180, 2006.
+
+\bibitem{temis.nl}
+eesa, ``Latest total ozone results for omi.''
+  \url{http://www.temis.nl/protocols/O3total.html}.
+\newblock Latest total ozone results for OMI.
+
+\bibitem{Holt-Winters-Forecasting}
+V.~Media., ``Holt-winters forecasting.'' \url{
+  https://grisha.org/blog/2016/01/29/triple-exponential-smoothing-forecasting/}.
+\newblock Holt-Winters Forecasting.
+
+\bibitem{chatfield1988holt}
+C.~Chatfield and M.~Yar, ``Holt-winters forecasting: some practical issues,''
+  {\em The Statistician}, pp.~129--140, 1988.
+
+\bibitem{sokhi2006prediction}
+R.~S. Sokhi, R.~San~Jos{\'e}, N.~Kitwiroon, E.~Fragkou, J.~L. P{\'e}rez, and
+  D.~Middleton, ``Prediction of ozone levels in london using the mm5--cmaq
+  modelling system,'' {\em Environmental Modelling \& Software}, vol.~21,
+  no.~4, pp.~566--576, 2006.
+
+\bibitem{cipra1995holt}
+T.~Cipra, J.~Trujillo, and A.~Robio, ``Holt-winters method with missing
+  observations,'' {\em Management Science}, vol.~41, no.~1, pp.~174--178, 1995.
+
+\bibitem{shindell1998increased}
+D.~T. Shindell, D.~Rind, and P.~Lonergan, ``Increased polar stratospheric ozone
+  losses and delayed eventual recovery owing to increasing greenhouse-gas
+  concentrations,'' {\em Nature}, vol.~392, no.~6676, pp.~589--592, 1998.
+
+\bibitem{wang2003prediction}
+W.~Wang, W.~Lu, X.~Wang, and A.~Y. Leung, ``Prediction of maximum daily ozone
+  level using combined neural network and statistical characteristics,'' {\em
+  Environment international}, vol.~29, no.~5, pp.~555--562, 2003.
+
+\bibitem{yi1996neural}
+J.~Yi and V.~R. Prybutok, ``A neural network model forecasting for prediction
+  of daily maximum ozone concentration in an industrialized urban area,'' {\em
+  Environmental Pollution}, vol.~92, no.~3, pp.~349--357, 1996.
+
+\end{thebibliography}
